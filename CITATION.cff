@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ActivityPlan"
+abstract: "Onboard activity planning with an auditable timeline — declared activities (duration, power profile, data produced, priority, windows, precedence, exclusions) against a declared resource model (battery capacity and depth-of-discharge limit, solar input, recorder capacity, contact windows and rates); greedy earliest-feasible-start and exact MILP baselines, a learned duration/energy predictor with calibrated prediction intervals used to warm-start the solver and to build a robust plan, scored against the exact optimum on optimality gap and solve time, and a feasibility report naming the binding constraint and the slack on every other one."
+type: software
+authors:
+  - family-names: "Acharya"
+    given-names: "Om"
+    alias: "OmAcharya-avtr"
+repository-code: "https://github.com/OmAcharya-avtr/activityplan"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-08-30"
+keywords:
+  - aerospace
+  - autonomous-aerospace-systems
